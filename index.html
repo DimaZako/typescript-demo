@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feature Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="header">
+  <nav class="nav">
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#posts">Posts</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section id="hero" class="hero">
+    <h1>Welcome to the Feature Template</h1>
+    <p>A simple responsive template with TypeScript interactivity</p>
+    <button id="openModalBtn">Open Modal</button>
+  </section>
+  <section id="about" class="content">
+    <h2>About</h2>
+    <p>This is a sample section describing the purpose of the site. Scroll down to see more.</p>
+  </section>
+  <section id="posts" class="content">
+    <h2>Posts</h2>
+    <div id="postsContainer"></div>
+  </section>
+</main>
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <h3>Modal Window</h3>
+    <p>This is a modal. Click outside or press the close button to dismiss.</p>
+    <button id="closeModalBtn">Close</button>
+  </div>
+</div>
+<script src="dist/script.js"></script>
+</body>
+</html>
